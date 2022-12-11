@@ -12,7 +12,7 @@ const [character, setCharacter] = useState()
       console.log(character)
 
   return (
-    <div>
+    <div className='cards-container'>
         <h3>{character?.name}</h3>
         <img src={character?.image} alt="" />
         <p><b>Status: </b>{character?.status}</p>
@@ -20,7 +20,6 @@ const [character, setCharacter] = useState()
         <p><b>Origin: </b>{character?.origin.name}</p>
         <p><b>ID: </b>{character?.id}</p>
         <p><b>Episodes: </b>{character?.episode.length}</p>
-
     </div>
   )
 }

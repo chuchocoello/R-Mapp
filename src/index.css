@@ -20,7 +20,8 @@ h1{
 }
 
 h2{
-  color: #558d02;
+  color: white;
+  text-align: center;
 }
 
 .header{
@@ -43,7 +44,7 @@ h2{
   min-width: 300px;
   width: 70%;
   min-height: 100px;
-  height: 120px;
+  height: 125px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,14 +53,6 @@ h2{
   bottom: -75px;
 }
 
-.info{
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #558d02;
-  border: solid 3px #b1b3c9;
-  border-radius: 20px;
-}
 
 form{
   width: 100%;
@@ -91,4 +84,65 @@ form > button {
   background-color: #003400;
   color: white;
   border-top: 0;
+}
+
+.info{
+  min-width: 300px;
+  width: 70%;
+  min-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #558d02;
+  border: solid 3px #b1b3c9;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.location-box{
+  border-radius: 20px;
+  background-color: #003400;
+  color: white;
+  border: solid 2px #b1b3c9;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cards-container{
+  border-radius: 20px;
+  background-color: #003400;
+  color: white;
+  border: solid 2px #b1b3c9;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 100px;
+  max-width: 200px;
+  height: 400px;
+}
+.cards-container-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.cards-container > img{
+  border-radius: 15px;
+  border: solid 2px #b1b3c9;
+}
+
+h3{
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .header{
+    background-image: url("https://pousta.com/wp-content/uploads/2020/05/PORTADARICKMORTY.png");
+  }
 }

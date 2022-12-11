@@ -44,9 +44,8 @@ function App() {
       </section>
 
       <section className="info">
-      <h2>R&M Random Dimension: </h2>
       <LocationInfo location={location} />
-      <div>
+      <div className='cards-container-box'>
         {location?.residents.map((urlResident) => (
           <ResidentCard key={urlResident} urlResident={urlResident} />
           ))}
