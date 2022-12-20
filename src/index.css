@@ -119,9 +119,9 @@ form > button {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  min-width: 100px;
+  width: 100%;
   max-width: 200px;
-  height: 400px;
+  height: 450px;
 }
 .cards-container-box{
   display: flex;
